@@ -1,0 +1,7 @@
+aws_region = "eu-central-1"
+name       = "domuris-staging"
+
+alarm_emails = []
+
+# Build the canary package in CI and pass its path through a generated tfvars file.
+# canary_zip_file_path = "./canary.zip"
