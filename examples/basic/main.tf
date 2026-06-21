@@ -1,11 +1,3 @@
-locals {
-  tags = {
-    Project     = "domuris"
-    Environment = "staging"
-    ManagedBy   = "terraform"
-  }
-}
-
 module "alerts" {
   source = "../../modules/alert-routing"
 
