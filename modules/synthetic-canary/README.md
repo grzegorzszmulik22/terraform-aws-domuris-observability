@@ -25,7 +25,7 @@ See [`examples/`](../../examples) for a full composition.
 
 ```hcl
 module "synthetic_canary" {
-  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/synthetic-canary?ref=v0.1.1"
+  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/synthetic-canary?ref=v0.2.0"
   # required inputs listed below
 }
 ```

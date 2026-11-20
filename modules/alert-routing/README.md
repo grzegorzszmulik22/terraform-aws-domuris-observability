@@ -17,7 +17,7 @@ See [`examples/`](../../examples) for a full composition.
 
 ```hcl
 module "alert_routing" {
-  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/alert-routing?ref=v0.1.1"
+  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/alert-routing?ref=v0.2.0"
   # required inputs listed below
 }
 ```

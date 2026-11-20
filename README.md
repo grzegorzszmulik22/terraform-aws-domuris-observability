@@ -21,14 +21,14 @@ Each module has its own README with the full inputs and outputs tables.
 
 ```hcl
 module "alerts" {
-  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/alert-routing?ref=v0.1.1"
+  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/alert-routing?ref=v0.2.0"
 
   name            = "domuris-staging-alerts"
   email_endpoints = var.alarm_emails
 }
 
 module "canary" {
-  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/synthetic-canary?ref=v0.1.1"
+  source = "git::https://github.com/grzegorzszmulik22/terraform-aws-domuris-observability.git//modules/synthetic-canary?ref=v0.2.0"
 
   name                 = "domuris-staging-health"
   artifact_s3_location = "s3://example-synthetics-artifacts/domuris"
